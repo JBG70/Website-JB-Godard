@@ -1,0 +1,1072 @@
+/*  -------------------GENERAL------------------- */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+p
+{
+    color: black;
+    font-size: 15px;
+    font-family: "Poly", sans-serif;
+}
+
+h1
+{
+    font-family: "Poly",serif;
+    font-size: 65px;
+    color: #FA5007;
+}
+
+h2
+{
+    color: #FBF3C3;
+    font-size: 30px;
+}
+
+h3
+{
+    color: #FA5007;
+    font-size: 70px;
+}
+
+h4
+{
+    color: #FA5007;
+    font-size: 30px;
+    font-family: "Poly", sans-serif;
+    font-style: italic;
+}
+
+h6
+{
+    color: #FA5007;
+    font-size: 20px;
+    font-family: "Poly", sans-serif;
+}
+
+ul
+{
+    list-style: none;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+
+
+/*  -------------------HEADER------------------- */
+
+.header
+{
+    height: 150px;
+}
+
+
+.header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+
+.header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li a
+{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.containeur-1
+{
+    background-color: #FA5007;
+    height:60px;
+}
+
+.banniere
+{
+    width: 410px;
+    margin: auto auto;
+    padding: 10px;
+    background-color: #FA5007;
+}
+
+.header h1
+{
+    margin-left: 180px;
+}
+
+nav
+{
+    margin-right: 180px;
+}
+
+nav ul li
+{
+    margin: 20px 20px;
+    font-family: "Poly",serif;
+    font-size: 18px;
+}
+
+.header a:hover 
+{
+    color: #FA5007 !important; 
+	opacity:1 !important;
+}
+
+/* ---------------------------------------------------------PREMIERE PAGE------------------------------------------------------- */
+
+
+/* -------------------PREMIERE SECTION------------------- */
+
+.premiere
+{
+    height:auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.containeur-2
+{
+    position: relative;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.image-gauche
+{
+    margin: auto;
+    height: 800px;
+    width: 90%;
+    padding-left: 80px;
+}
+
+
+
+.bouton-1
+{
+    display: block;
+    width: 400px;
+    height: 50px;
+    background: #FA5007;
+    color: #FBF3C3;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 40%;
+    left: 36%;
+}
+
+.bouton-1:hover
+{
+    display: block;
+    width: 400px;
+    height: 50px;
+    background: #FBF3C3;
+    color: #FA5007;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 40%;
+    left: 36%;
+}
+
+.legende-1 h3
+{
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    font-family: "Poly", sans-serif;
+}
+
+
+
+/* -------------------BANDE------------------- */
+
+.banniere-2
+{
+    width: auto;
+    margin: auto auto;
+    padding: 10px;
+    background-color: white;
+    height: 50px;
+}
+
+/* -------------------DEUXIEME SECTION------------------- */
+
+
+.containeur-3
+{
+    background-color: #FBF3C3;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.containeur-3 nav ul li
+{
+    font-family: "Poly",serif;
+    font-size: 48px;
+    color: #FA5007;
+    display: inline-block;
+    width: 255px;
+}
+
+.containeur-3 nav 
+{
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+
+
+
+/* -------------------TROISIEME SECTION------------------- */
+
+
+.troisieme
+{
+   height:auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.containeur-4
+{
+    position: relative;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-gauche2
+{
+    display: inline;
+    float: left;
+    margin: auto;
+    height: 800px;
+    width: 50%;
+}
+
+.image-droite2
+{
+    display: inline;
+    float: right;
+    margin: auto;
+    height: 400px;
+    width: 30%;
+    border-style: solid;
+    border-color: white;
+    padding-top: 200px;
+   padding-right: 110px;
+}
+
+.legende-2 h4
+{
+    position: absolute;
+    bottom: 80%;
+    left: 6%;
+    font-family: "Poly", sans-serif;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+
+.lien-1
+{
+    position: absolute;
+    bottom: 75%;
+    left: 15%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-1:hover
+{
+   position: absolute;
+    bottom: 75%;
+    left: 15%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-style: oblique;
+    font-family: "Poly", sans-serif;
+}
+
+
+.legende-2 h5
+{
+    position: absolute;
+    bottom: 13%;
+    left: 60%;
+    font-family: "Poly", sans-serif;
+    width: 490px;
+    font-size: 30px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-2
+{
+    position: absolute;
+    bottom:9%;
+    left: 68%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-2:hover
+{
+   position: absolute;
+    bottom:9%;
+    left: 68%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-style: oblique;
+    font-family: "Poly", sans-serif;
+}
+
+
+
+/* -------------------QUATRIEME SECTION------------------- */
+
+
+.quatrieme
+{
+    height:auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.containeur-5
+{
+    position: relative;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.image-gauche30
+{
+    display: inline;
+    float: left;
+    margin: auto;
+    height: 800px;
+    width: 50%;
+}
+
+.image-droite30
+{
+    display: inline;
+    float: right;
+    margin: auto;
+    height: 800px;
+    width: 50%;
+    background-color: #FBF3C3;
+}
+
+
+.image-droite30 h4
+{
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 60%;
+    left: 57%;
+    font-family: "Poly", sans-serif;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.image-droite30 p
+{
+    position: absolute;
+    bottom:34%;
+    left: 59%;
+    font-family: "Poly", sans-serif;
+    width: 500px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-3
+{
+    position: absolute;
+    bottom:20%;
+    left: 68%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-3:hover
+{
+   position: absolute;
+    bottom: 20%;
+    left: 68%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-style: oblique;
+    font-family: "Poly", sans-serif;
+}
+
+
+
+/* -------------------CINQUIEME SECTION------------------- */
+
+
+.cinquieme
+{
+    height:auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.containeur-6
+{
+    position: relative;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.image-droite1
+{
+    display: inline;
+    float: right;
+    margin: auto;
+    height: 800px;
+    width: 50%;
+}
+
+.image-gauche1
+{
+    display: inline;
+    float: left;
+    margin: auto;
+    height: 800px;
+    width: 50%;
+    background-color: #FBF3C3;
+}
+
+
+.image-gauche1 h4
+{
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 50%;
+    left: 6%;
+    font-family: "Poly", sans-serif;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.image-gauche1 p
+{
+    position: absolute;
+    bottom:32%;
+    left: 8%;
+    font-family: "Poly", sans-serif;
+    width: 500px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-4
+{
+    position: absolute;
+    bottom:18%;
+    left: 17%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: #FA5007;
+    font-family: monospace;
+    font-family: "Poly", sans-serif;
+}
+
+.lien-4:hover
+{
+   position: absolute;
+    bottom: 18%;
+    left: 17%;
+    font-family: "Poly", sans-serif;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-style: oblique;
+    font-family: "Poly", sans-serif;
+}
+
+
+
+
+/* -------------------SIXIEME SECTION------------------- */
+
+.sixieme
+{
+    height:450px;
+    position: absolute;
+ }   
+
+.sixieme h3
+{
+    text-align: center;
+    position: relative;
+    left: 29%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+ } 
+
+.sixieme p
+{
+    text-align: center;
+    padding-bottom: 50px;
+    width: 900px;
+    padding-left: 29%;
+    font-size: 20px;
+ } 
+
+.bouton-2
+{
+    display: block;
+    width: 400px;
+    height: 50px;
+    background: #FA5007;
+    color: #FBF3C3;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 15%;
+    left: 58%;
+}
+
+.bouton-2:hover
+{
+    display: block;
+    width: 400px;
+    height: 50px;
+    background: #FBF3C3;
+    color: #FA5007;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 15%;
+    left: 58%;
+}
+
+
+/* ---------------------------------------------------------DEUXIEME PAGE------------------------------------------------------- */
+
+/* -------------------PREMIERE SECTION------------------- */
+
+
+.premiere-2 h4
+{
+    width: 1000px;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* -------------------DEUXIEME ET QUATRIEME SECTIONS------------------- */
+
+.deuxieme-2
+{
+    margin-top: 150px;
+    height: 800px;
+}
+
+.deuxieme-4
+{
+    margin-top: 60px;
+    height: 800px;
+}
+
+.containeur-8
+{
+    position: relative;
+    height:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.containeur-10
+{
+    position: relative;
+    height:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-gauche3
+{
+    width: 600px;
+    height: 700px;
+    margin-left: 80px;
+    
+}
+
+.block-droite3
+{
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    margin-left: 80px; 
+}
+
+.block-droite3 h4
+{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+
+.block-droite3 h6
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-style: italic
+}
+
+.block-droite3 p
+{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-style: italic
+}
+
+/* -------------------TROISIEME SECTION------------------- */
+
+.precommande
+{
+    height: 800px;
+    margin-top: 40px;
+}
+
+.blockgauche
+{
+    position: relative;
+    height:700px;
+    margin-left: 80px;
+    margin-right: auto;
+    width: 35%;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imagedroite
+{
+    height:700px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 600px;
+    overflow: hidden;
+    float: right;
+    margin-right: 80px;
+}
+
+.blockgauche h4
+{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+
+.blockgauche h6
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-style: italic
+}
+
+.blockgauche p
+{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-style: italic
+}
+
+/* -------------------CINQUIEME SECTION------------------- */
+
+.intemporel
+{
+    height: 800px;
+    margin-top: 40px;
+}
+
+.blockgauche1
+{
+    position: relative;
+    height:700px;
+    margin-left: 80px;
+    margin-right: auto;
+    width: 35%;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imagedroite1
+{
+    height:700px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 600px;
+    overflow: hidden;
+    float: right;
+    margin-right: 80px;
+}
+
+.blockgauche1 h4
+{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+
+.blockgauche1 h6
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-style: italic
+}
+
+.blockgauche1 p
+{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-style: italic
+}
+
+
+
+/* ---------------------------------------------------------TROISIEME PAGE------------------------------------------------------- */
+
+/* -------------------PREMIERE SECTION------------------- */
+
+.image-gauche6
+{
+    margin-left: 80px; 
+}
+
+.block-droite6
+{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin-right: 80px; 
+    float: right;
+    margin-top: 50px;
+}
+
+.block-droite6 h4
+{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+
+.block-droite6 h6
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-style: italic
+}
+
+.block-droite6 p
+{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-style: italic
+}
+
+
+/* -------------------DEUXIEME SECTION------------------- */
+
+.presentations
+{
+    width: 100%;
+    background-color: #FBF3C3;
+    height: 600px;
+}
+
+.texte
+{
+    text-align: center;
+}
+
+
+.texte h4
+{
+    font-size: 60px;
+    padding-top: 80px;
+}
+
+.texte p
+{
+    font-size:20px;
+    margin-top: 100px;
+    width: 80%;
+    text-align: center;
+    margin-left: 160px;
+    
+}
+
+.block-droite7
+{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin-right: 80px; 
+    float: right;
+    margin-top: 100px;
+}
+
+.block-droite7 h4
+{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+
+.block-droite7 h6
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-style: italic
+}
+
+.block-droite7 p
+{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-style: italic
+}
+
+
+/* -------------------TROISIEME SECTION------------------- */
+
+/* ---------------------------------------------------------FOOTER------------------------------------------------------- */
+
+/* -------------------FOOTER HOME------------------- */
+
+
+.footer 
+{
+    height:180px;
+    width: auto;
+    margin-top: 32%;
+    background-color: #FBF3C3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+ }  
+
+.ref
+{
+    margin-top: 180px;
+    margin-left: 600px;
+ }
+
+/* -------------------FOOTER CONCEPT------------------- */
+
+.footer1 
+{
+    height:180px;
+    width: auto;
+    background-color: #FBF3C3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+ }  
+
+.ref1
+{
+    margin-top: 180px;
+    margin-left: 600px;
+ }
+
+/* -------------------FOOTER A PROPOS------------------- */
+
+.footer2 
+{
+    height:180px;
+    width: auto;
+    background-color: #FBF3C3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+ }  
+
+.ref2
+{
+    margin-top: 180px;
+    margin-left: 600px;
+ }
+
+
+/* -------------------POUR LES TROIS------------------- */
+
+
+.newsletter
+{
+    text-align: center;
+    float: left;
+    width: 500px;
+ }  
+
+.newsletter form
+{
+    padding-top: 40px;
+ }  
+
+.contact
+{
+    float: right;
+    margin-right: 200px;
+    display: inline;
+    margin-top: 40px;
+    text-align: center;
+ }
+
+
+
+
+
+
+    
+    
+    
+    
